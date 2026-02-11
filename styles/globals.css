@@ -1,0 +1,15 @@
+/* Global styles for CareOps MVP */
+:root{
+  --bg:#ffffff;
+  --fg:#0f172a;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+html,body,#__next{height:100%;}
+body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:var(--bg);color:var(--fg);}
+main{max-width:900px;margin:24px auto;padding:24px}
+a{color:var(--accent);}
+button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+
+/* Minimal responsive helpers */
+@media (max-width:600px){main{padding:16px;margin:12px}}
